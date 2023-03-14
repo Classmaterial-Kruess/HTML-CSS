@@ -1,0 +1,62 @@
+<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Auszeichnungssprachen</title>
+  <defs>
+    <style>
+	  text {
+	    font-size: 20px;	  
+	  }	  
+	 </style> 
+	 <symbol id="pfeil">
+	   <path d="M1,10 h40" stroke="white" stroke-width="1"/>
+	   <path d="M41,10 l-10,3 v-6z" fill="white" stroke="white" stroke-width="1"/>
+	 </symbol>
+	 <symbol id="pfeil_lang">
+	   <path d="M1,10 h100" stroke="red" stroke-width="1"/>
+	   <path d="M101,10 l-10,3 v-6z" fill="red" stroke="red" stroke-width="1"/>
+	 </symbol>	 
+	 <symbol id="datei">
+	   <path d="M2,2 h95 a5,5 0 0,1 5,5 v30 a5,5 0 0,1 -5,5 h-90 a5,5 0 0,1 -5,-5 z" stroke="#000" stroke-width="1"/>
+	 </symbol>
+  </defs>
+  <g id="box">
+    <desc>Übersicht der verschiedenen Auszeichnungssprachen und ihre Entwicklung</desc> 
+
+    <use xlink:href="#datei" transform="translate(200,10)" fill="#fffbf0"/>
+	<text x="220" y="40" fill="#dfac20" stroke="#dfac20" >SGML</text>	
+	<use xlink:href="#pfeil" transform="translate(180,50) scale(-1,1) rotate(20)" />	
+	<use xlink:href="#pfeil_lang" transform="translate(200,50) scale(-1,1) rotate(60)" />			
+	<use xlink:href="#pfeil" transform="translate(310,30) rotate(30)" />	
+	
+    <use xlink:href="#datei" transform="translate(20,70)" fill="#eee"/>
+	<text x="30" y="100" fill="#333" stroke="#333" >DocBook</text>	
+	
+    <use xlink:href="#datei" transform="translate(300,70)" fill="#ffebe6"/>
+	<text x="330" y="100" fill="#c32e04" stroke="#c32e04" >XML</text>			
+	<use xlink:href="#pfeil" transform="translate(310,110) scale(-1,1) rotate(50)" />
+	<use xlink:href="#pfeil" transform="translate(370,110) rotate(50)" />
+	<use xlink:href="#pfeil_lang" transform="translate(410,85) rotate(30)" />
+	
+	
+    <use xlink:href="#datei" transform="translate(70,150)" fill="#ebf5d7"/>
+	<text x="90" y="180" fill="#5a9900" stroke="#5a9900" >HTML</text>	
+	<path d="M1,10 h40" stroke="orange" stroke-width="1" transform="translate(175,165)" stroke-dasharray="1% 1%"/>	
+	<path d="M101,10 l-10,3 v-6z" fill="red" stroke="orange" stroke-width="1" transform="translate(130,165)" />			
+	
+    <use xlink:href="#datei" transform="translate(230,150)" fill="#ffebe6"/>
+	<text x="245" y="180" fill="#c32e04" stroke="#c32e04" >XHTML</text>		
+
+    <use xlink:href="#datei" transform="translate(350,150)" fill="#ffebe6"/>
+	<text x="380" y="180" fill="#c32e04" stroke="#c32e04" >SVG</text>		
+
+    <use xlink:href="#datei" transform="translate(470,150)" fill="#ffebe6"/>
+	<text x="485" y="180" fill="#c32e04" stroke="#c32e04" >MathML</text>					
+
+
+
+
+
+
+	
+	
+  </g>	
+</svg>
