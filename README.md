@@ -3,7 +3,7 @@
 - HTML
   - HTML Einleitung
   - Netzwerk, TPC, IP
-  - HTML Aufbau, Tags
+  - HTML Syntax, Tags, Attribute
   - HTML Quiz
 - CSS
   - CSS Einbinden

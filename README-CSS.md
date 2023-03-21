@@ -50,4 +50,29 @@ Bei solch komplexen Animationen sollte man CSS mit Javascript verknüpfen.
 [Cube](https://webkit.org/blog-files/3d-transforms/morphing-cubes.html)
 
 
-##
+## Die verwendung von CSS auf HTML Elemente
+
+Es gibt mehrere Wege CSS Anzuwenden. Neben Frameworks wie Bootstrap und Tailwind gibt es auch klassische varianten wie SASS und CSS.
+Doch so unterschiedlich die Wege auch sind, so basieren sie alle auf CSS und werden bei der Compelierung der Seite zu CSS compeliert.
+
+### Inlinestyle
+
+Eine variante CSS Anzuwenden ist dieses direkt im HTML Dokument (im Tag) zu Verwenden.
+Das ganze wird durch den Tag style="" eingeleitet.
+
+```<div style="width: 10rem; height: 5rem; border: 0.5rem solid ">Content</div>```
+
+<div style="width: 10rem; height: 5rem; border: 0.5rem solid ">Content</div>
+
+
+### Script
+
+Eine andere Variante, die ebenfalls im HTML Dokument angewendet werden kann, ist es einen Script Tag zu verwenden. Innerhalb dieses Script Tags, können ebenfalls id´s und classes verwendet werden.
+
+![Script Tag](./images/scripttag.PNG)
+
+### externes Stylesheet
+
+Die beste und wohl verbreiteste Anwendung von CSS ist das externe Stylesheet. Dieses muss in das HTML Dokument eingebunden werden, da es eine eigene Datei mit der Endung .css ist.
+
+![extern css](./images/externHTML.png)

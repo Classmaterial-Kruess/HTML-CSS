@@ -89,6 +89,7 @@ Allerdings ist der Grundaufbau eines HTML Dokumentes immer gleich.
 | Open/Closing Tag   | Beschreibung  | Beispiel |
 |---|---|---|
 ||**HTML Struktur**|
+|```<!-- Text --->```|ein einzeiliger Kommentar, dieser wird nicht verarbeitet und nur im Code angezeigt|<!-- Hier ist ein einzeiliger Kommentar! -->|
 |```<html></html>```| Öffnet und schließt den Bereich des Dokuments in dem HTML verwendet werden darf. (Root) |
 |```<head ></head>```| Bereich um Daten zu Deklarieren in Form von Metadaten, importien von Stylesheets und Verlinkungen zu anderer Software |
 |```<body></body>```| Definiert den Körper der Webseite mit allem Kontent  |
@@ -117,6 +118,29 @@ Allerdings ist der Grundaufbau eines HTML Dokumentes immer gleich.
 |```<li></li>```| List Objekt, eine Zeile in einer Liste||
 
 
-Am Ende dieses Moduls prüft euer Wissen gerne mit dem HTML Quiz:
+## Tags und ihre Attribute
+
+Unter einem Attribut könnte man sich eine Erweiterung vorstellung. Das bedeutet man kann Tags durch Attribute veändern. Es gibt eine lange Liste von Attributen, von denen man die meisten nicht wirklich nutzt.
+
+Die wohl am häufigstverwendeten Attribute siehst du in der Liste.
+
+|Command|Beschreibung|HTML|CSS/Vorschau|
+|---|---|---|---|
+|class| Eine Klasse ist eine wiederverwendbare Ansammlung von Styeles. Im stylesheet wird eine class mit einem . angesprochen|```<div class="divSettings">TEXT</div>```|.divSettings{color: red;}|
+|id|Eine ID ist wie eine Klasse, nur dass sie einmalig vergeben wird. Im stylesheet wird eine id mit einem # angesprochen|```<div class="divSettings">TEXT</div>```|#divSettings{color: red;}||
+|style|Initialisiert inline Styles|```<div style="color: red">TEXT</div>```|||
+|alt|Legt den Alternativen Text fest, falls ein Bild nicht angezeigt werden kann oder zum Vorlesen für beeinträchtigte Peronen|```<img alt="Bildbeschreibung"></img>```|||
+|src|Damit legt man den Pfad die Quelle (source) des Bildes/der Datei fest.|```<img src="./images/bild1.png">TEXT</img>```|||
+|type|Es gibt verschiedene Typen: text, checkbox, radio, email|```<input type="checkbox"></input>```|<input type="checkbox"></input>|
+|checked|Um einer Checkbox als default zu Aktivieren gibt es das Attribut checked|```<input type="checkbox" checked" />```|<input type="checkbox" checked></input>||
+|selected|Eine option kann mit dem Attribut selected als ausgewähltes Feld vordefiniert werden|```<input type="radio" selected />```|<select><option type="radio" >Feld1</option><option type="radio" selected >Feld2</option></select>|
+|value|Value ist der Wert in einem Feld. Durch die Zuweisung eines Wertes wird dieser Wert an das Feld übergeben.|```<input type="text" value="Valuetext" />```|<input type="text" value="Valuetext" />|
+|placeholder|Hiermit lässt sich ein Beispieltext erzeugen|```<input type="text" placeholder="Platzhaltertext" />```|<input type="text" placeholder="Platzhaltertext" />|
+|disabled|Verschiedene Elemente können disabled werden. Ein Button z.B. kann so lange disabled werden, bis alle nötigen Felder ausgefüllt sind.|```<button class="divSettings">TEXT</button>```|<button >Aktiviert</button> <button disabled>Deaktiviert</button>|
+|target|Das target="_blank" Attribut sorgt dafür, dass beim öffnen ein neuer Tab im Browser geöffent wird.|```<a href="https://" target="_blank" rel="noopener noreferrer">Link</a>```|<a href="https://" target="_blank" rel="noopener noreferrer">Link</a>|
+|loop, muted, controls|Videos und Audio Dateien können diese Attribute erhalten|
+
+
+Wenn du wissen möchstest wie gut du mit HTML klar kommst ist hier ein kleines HTML Quiz.
 
 [Zum Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML)

@@ -4,23 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <!-- Einbinden eines externen Stylessheets -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Externe Styles</title>
 </head>
 <body style="font-size:1.6rem">
-  <div style="background-color: yellow; width: 80%; margin: auto"><h1>Die Grundlagen</h1></div>
-  <div style="width: 80%; margin: auto">Max Mustermann</div>
-  <div style="width: 80%; margin: auto">
-    <p>Hier ändere ich die Farben der Wörter
-      <span style="color:blue">Blau</span>
-      <span style="color:red">ROT</span>
-      <span style="color:green">GRÜN</span>
-    </p>
-    <p>
-      <span style="font-size:1rem">small</span>
-      <span style="font-size:2rem">medium</span>
-      <span style="font-size:2.5rem">large</span>
-    </p>
-    <a href="https://www.w3schools.com/html/html_links.asp">Zur webseite</a>
-  </div>
+  <main>
+      <section>
+        <h1>Überschrift</h1>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </section>
+      <section class="sectionContainer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p id="pID">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam qui nulla quisquam incidunt facilis, a ipsa dolor placeat laboriosam aut.
+        </p>
+      </section>
+      <section class="sectionContainer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p id="pID2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab incidunt voluptates nihil consequuntur libero laboriosam sed quisquam, magnam veritatis earum?
+        </p>
+      </section>
+  </main>
 </body>
 </html>

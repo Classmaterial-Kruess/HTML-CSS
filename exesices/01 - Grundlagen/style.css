@@ -1,0 +1,38 @@
+/*
+  Ansprechbare HTML Dokumente
+
+  Man kann HTML Elemente auf verschiedene Weise ansprechen
+  - als class               .myclass
+  - als id                  #myid
+  - den Tag direkt          div, p, li ...
+  - den Tag + Attribut      input[type="Text"]
+*/
+
+main{
+  width: 80%;
+}
+
+section{
+  background-color: aqua;
+  color:black;
+  padding: 0 2rem;
+  border-bottom: 0.2rem solid black;
+}
+
+.sectionContainer{
+  background-color: yellow;
+  border: none;
+}
+
+p{
+  font-size: 2rem;
+}
+
+#pID{
+  font-size: 1rem;
+}
+
+#pID2{
+  color: red;
+  font-size: 1rem;
+}
