@@ -1,14 +1,12 @@
-# Aufgaben 
+# Aufgaben
 
-Hier findest du die Aufgaben, arbeite diese ab und versuche so viele Punkte wie möglich zu erfüllen. Unten findest du ein Bild, wie die Seite am Ende aussehen sollte. Nutze für die Aufgaben das `style=""` Tag (Inlinestyle).
-Am Ende dieser Übung gehen wir diese Gemeinsam durch und übertragen die CSS-Angaben in ein externes Stylesheet und binden dieses in das html Dokument ein.
+Hier findest du die Aufgaben, arbeite diese ab und versuche so viele Punkte wie möglich zu erfüllen. Unten findest du ein Bild, wie die Seite am Ende aussehen sollte.
 
 Viel Spaß!
 
-
 - Erstelle eine `index.html` Datei
 - Schreibe die HTML-Grundstruktur
-- Erstelle im Body 3 div Conatiner mit einer Breite von 80% und versuche die div Container zu zentrieren.
+- Erstelle im Body 3 div Conatiner mit einer Breite von 80% und versuche die div Container zu zentrieren. [margin](https://www.w3schools.com/css/css_margin.asp)
 - Im ersten div erstellst du eine h1 Überschrift "Die Grundlagen"
 - Erstelle einen Paragraphen, im mittleren div mit deinem Namen darin
 - Im dritten div legst du verschiedene Elemente an:
@@ -21,4 +19,4 @@ Viel Spaß!
 
 ## Auflösung
 
-  ![Grundlagen Vorlage](../../images/grundlagen.PNG)
+![Grundlagen Vorlage](../../images/grundlagen.PNG)

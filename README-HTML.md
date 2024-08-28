@@ -1,9 +1,8 @@
 # HTML und allgemeine Hintergundinformationen
 
-
 ## Was ist HTML?
 
-HTML ist eine „Sprache“ für Computer und die Abkürzung des englisches Begriffes „Hypertext Markup Language“. Übersetzt könnte man sagen: „Auszeichnungssprache für Hypertext“. HTML ist die Grundlage für alle Seiten im Internet und besteht seit 1992. Ein Hypertext ist ein Text, der mit anderen Texten verbunden ist. 
+HTML ist eine „Sprache“ für Computer und die Abkürzung des englisches Begriffes „Hypertext Markup Language“. Übersetzt könnte man sagen: „Auszeichnungssprache für Hypertext“. HTML ist die Grundlage für alle Seiten im Internet und besteht seit 1992. Ein Hypertext ist ein Text, der mit anderen Texten verbunden ist.
 
 Mit HTML baut man die Grundstruktur einer Webseite auf, welche dann mit CSS und diversen Scriptsprachen verknüft werden kann.
 
@@ -14,9 +13,7 @@ SGML ist eine Metasprache, die ab 1960 Texte standardisieren und für Computer l
 
 ![SGML](./images/Auszeichnungssprachen.svg)
 
-
 Wer mehr Informationen zu diesen Theman sucht, findet diese im [Museum für Webdesign](https://www.webdesignmuseum.org/web-design-history/timeline-1990-1994)
-
 
 ## Wie arbeitet das Internet?
 
@@ -43,7 +40,6 @@ Außerdem gibt es in vielen Büros nur einen bzw. einige wenige Drucker, die von
 - Teilen von Rechenleistung und Speicherkapazität
 - Einfache Verwaltung von Berechtigungen und Zuständigkeiten
 
-
 ### TCP/IP
 
 Die Internet Protocol Address, kurz IP-Adresse, ist eine Adresse in einem Computernetzwerk wie beispielsweise dem Internet. Jedes Gerät in einem Netzwerk hat eine einmalige IP-Adresse, die automatisch vergeben wird und auf dem Internetprotokoll basiert. Diese einzigartige Kennung ermöglicht die richtige und zielgenaue Versendung von Datenpaketen. Die IP-Adresse kann dabei einem einzelnen Empfänger oder einer Gruppe von Empfängern zugeordnet werden. Umgekehrt können aber auch mehrere IP-Adressen einen einzelnen Empfänger bezeichnen.
@@ -69,13 +65,14 @@ Kurz ist das Domain Name System (DNS) für die Kommunikation zwischen Mensch und
 
 TCP steht für Transmission Control Protocol und ist eine Reihe von Kommunikationsprotokollen, die verwendet werden, um Netzwerkgeräte im Internet miteinander zu verbinden. TCP/IP wird auch als Kommunikationsprotokoll in einem privaten Computernetzwerk (einem Intranet oder Extranet) verwendet.
 
-Themen: Netzwerk, TCP/IP, UDP HTTP, Internetprotokolle [und mehr](https://cewebs.cs.univie.ac.at/nt/ss13/index.php?m=F&t=vorlesung&c=afile&CEWebS_what=Vorlesung&CEWebS_rev=65&CEWebS_file=2013-05-15_Kapitel-4_Teil-3.pdf) 
+Themen: Netzwerk, TCP/IP, UDP HTTP, Internetprotokolle [und mehr](https://cewebs.cs.univie.ac.at/nt/ss13/index.php?m=F&t=vorlesung&c=afile&CEWebS_what=Vorlesung&CEWebS_rev=65&CEWebS_file=2013-05-15_Kapitel-4_Teil-3.pdf)
 
 ## HTML - Der Grundaufbau
 
 Nun endlich kommen wir zum spannenden Thema HTML. HTML ist die grundstruktru jeder Webseite, auf dieser Grundstruktur bauen das Styling und diverse Scriptsprachen, wie z.B. Javascript, auf.
 
 HTML arbeitet mit sogenannten Tags, einen Tag erkennt man an der öffnenden und schließenden Klammer:
+
 >       <tagname>...Inhalt...</tagname>
 
 Während es unerlässliche Tags gibt, gibt es auch eine Vielzahl von Tags, die nicht zwangsweise verwendet werden müssen.
@@ -86,37 +83,36 @@ Allerdings ist der Grundaufbau eines HTML Dokumentes immer gleich.
 
 ### HTML Tags
 
-| Open/Closing Tag   | Beschreibung  | Beispiel |
-|---|---|---|
-||**HTML Struktur**|
-|```<!-- Text --->```|ein einzeiliger Kommentar, dieser wird nicht verarbeitet und nur im Code angezeigt|<!-- Hier ist ein einzeiliger Kommentar! -->|
-|```<html></html>```| Öffnet und schließt den Bereich des Dokuments in dem HTML verwendet werden darf. (Root) |
-|```<head ></head>```| Bereich um Daten zu Deklarieren in Form von Metadaten, importien von Stylesheets und Verlinkungen zu anderer Software |
-|```<body></body>```| Definiert den Körper der Webseite mit allem Kontent  |
-| | **Block-Elemente**||
-|**Was ist ein Block-Element?** | Unter Block-Element versteht man Elemente die eine neue Zeile beginen und 100% der Breite einnehmen|```<header>, <footer>, <nav>, <div>, <p>,<article>, <aside>, <ul>, <li>, <form>, <table>, <video>```|
-| | **Überschriften**|
-|```<h1> <h6>```| Der h1-Tag ist einmalig auf jeder Seite. Es ist die Hauptüberschirft der Seite. | ![h3-6](./images/h-tags.png)|
-||**Inline-Elemente**||
-|**Was ist ein Inline-Element?**| Ein Inline-Element richtet seine Breite nach dem Inhalt, wodurch man z.B. einzelne Textpassagen stylen kann. |```<a>, <b>, <br>, <button>, <em>, <i>, <img>, <input>, <lable>, <span>, <textarea>```|
-||**Gängigsten Tags**||
-|```<a></a>```| Mit dem a-Tag erzeugt man einen Link ||
-|```<aside></aside>```|||
-|```<b></b>```| bold macht den Text Fett gedruckt|<b>Dieser Text ist bold</b>|
-|```<br />```| erzwingt einen Zeilenumbruch |Dieser Text ist<br/> gebrochen|
-|```<button></button>```| Erzeugt einen Button |<button>Klick Mich</button>|
-|```<div></div>```| Ein Div ist einer der am häufigsten genutzten Kontainer ||
-|```<form></form>```| Erzeugt ein Formular wie man es aus Kontakt oder Login Formularen kennt||
-|```<i></i>```| italic |<i>Dieser Text ist italic</i>|
-|```<input />```| Ein Impitfeld ist ein Feld in dem User Text eingeben können|<input />|
-|```<img></img>```|Um Bilder einzufügen verwendet man das img Tag, hierzu gibt es weitere Attribute ||
-|```<span></span>```| Ein Span wird verwendet um Text ohne Auswirkungen zu formatieren ||
-|```<strong></strong>```| Strong hebt den Text hervor und markiert ihn für Google |Strong ist ähnlich wie <strong>bold</strong>|
-|```<textarea>```|||
-|```<ul></ul >```| unorderd List| <ul><li>unorderd Listeneintrag</li></ul> |
-|```<ol></ol>```| orderd List | <ol><li>orderd Listeneintrag</li></ol> |
-|```<li></li>```| List Objekt, eine Zeile in einer Liste||
-
+| Open/Closing Tag                | Beschreibung                                                                                                          | Beispiel                                                                                         |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+|                                 | **HTML Struktur**                                                                                                     |
+| `<!-- Text --->`                | ein einzeiliger Kommentar, dieser wird nicht verarbeitet und nur im Code angezeigt                                    | <!-- Hier ist ein einzeiliger Kommentar! -->                                                     |
+| `<html></html>`                 | Öffnet und schließt den Bereich des Dokuments in dem HTML verwendet werden darf. (Root)                               |
+| `<head ></head>`                | Bereich um Daten zu Deklarieren in Form von Metadaten, importien von Stylesheets und Verlinkungen zu anderer Software |
+| `<body></body>`                 | Definiert den Körper der Webseite mit allem Kontent                                                                   |
+|                                 | **Block-Elemente**                                                                                                    |                                                                                                  |
+| **Was ist ein Block-Element?**  | Unter Block-Element versteht man Elemente die eine neue Zeile beginen und 100% der Breite einnehmen                   | `<header>, <footer>, <nav>, <div>, <p>,<article>, <aside>, <ul>, <li>, <form>, <table>, <video>` |
+|                                 | **Überschriften**                                                                                                     |
+| `<h1> <h6>`                     | Der h1-Tag ist einmalig auf jeder Seite. Es ist die Hauptüberschirft der Seite.                                       | ![h3-6](./images/h-tags.png)                                                                     |
+|                                 | **Inline-Elemente**                                                                                                   |                                                                                                  |
+| **Was ist ein Inline-Element?** | Ein Inline-Element richtet seine Breite nach dem Inhalt, wodurch man z.B. einzelne Textpassagen stylen kann.          | `<a>, <b>, <br>, <button>, <em>, <i>, <img>, <input>, <lable>, <span>, <textarea>`               |
+|                                 | **Gängigsten Tags**                                                                                                   |                                                                                                  |
+| `<a></a>`                       | Mit dem a-Tag erzeugt man einen Link                                                                                  |                                                                                                  |
+| `<aside></aside>`               |                                                                                                                       |                                                                                                  |
+| `<b></b>`                       | bold macht den Text Fett gedruckt                                                                                     | <b>Dieser Text ist bold</b> (Veraltet)                                                           |
+| `<br />`                        | erzwingt einen Zeilenumbruch                                                                                          | Dieser Text ist<br/> gebrochen                                                                   |
+| `<button></button>`             | Erzeugt einen Button                                                                                                  | <button>Klick Mich</button>                                                                      |
+| `<div></div>`                   | Ein Div ist einer der am häufigsten genutzten Kontainer                                                               |                                                                                                  |
+| `<form></form>`                 | Erzeugt ein Formular wie man es aus Kontakt oder Login Formularen kennt                                               |                                                                                                  |
+| `<i></i>`                       | italic                                                                                                                | <i>Dieser Text ist italic</i> (Veraltet)                                                         |
+| `<input />`                     | Ein Imputfeld ist ein Feld in dem User Text eingeben können                                                           | <input />                                                                                        |
+| `<img></img>`                   | Um Bilder einzufügen verwendet man das img Tag, hierzu gibt es weitere Attribute                                      |                                                                                                  |
+| `<span></span>`                 | Ein Span wird verwendet um Text ohne Auswirkungen zu formatieren                                                      |                                                                                                  |
+| `<strong></strong>`             | Strong hebt den Text hervor und markiert ihn für Google                                                               | <strong>Strong ist ähnlich wie bold</strong>                                                     |
+| `<textarea>`                    | Ein Texteingabefeld, das Fließtexte beinhalten kann.                                                                  | <textarea>Hallo world, hier kommt mein HTML!</textarea>                                          |
+| `<ul></ul >`                    | unorderd List                                                                                                         | <ul><li>unorderd Listeneintrag</li></ul>                                                         |
+| `<ol></ol>`                     | orderd List                                                                                                           | <ol><li>orderd Listeneintrag</li></ol>                                                           |
+| `<li></li>`                     | List Item, eine Zeile in einer Liste                                                                                  |                                                                                                  |
 
 ## Tags und ihre Attribute
 
@@ -124,26 +120,23 @@ Unter einem Attribut könnte man sich eine Erweiterung vorstellung. Das bedeutet
 
 Die wohl am häufigstverwendeten Attribute siehst du in der Liste.
 
-|Command|Beschreibung|HTML|CSS/Vorschau|
-|---|---|---|---|
-|class| Eine Klasse ist eine wiederverwendbare Ansammlung von Styeles. Im stylesheet wird eine class mit einem . angesprochen|```<div class="divSettings">TEXT</div>```|.divSettings{color: red;}|
-|id|Eine ID ist wie eine Klasse, nur dass sie einmalig vergeben wird. Im stylesheet wird eine id mit einem # angesprochen|```<div class="divSettings">TEXT</div>```|#divSettings{color: red;}||
-|style|Initialisiert inline Styles|```<div style="color: red">TEXT</div>```|||
-|alt|Legt den Alternativen Text fest, falls ein Bild nicht angezeigt werden kann oder zum Vorlesen für beeinträchtigte Peronen|```<img alt="Bildbeschreibung"></img>```|||
-|src|Damit legt man den Pfad die Quelle (source) des Bildes/der Datei fest.|```<img src="./images/bild1.png">TEXT</img>```|||
-|type|Es gibt verschiedene Typen: text, checkbox, radio, email|```<input type="checkbox"></input>```|<input type="checkbox"></input>|
-|checked|Um einer Checkbox als default zu Aktivieren gibt es das Attribut checked|```<input type="checkbox" checked" />```|<input type="checkbox" checked></input>||
-|selected|Eine option kann mit dem Attribut selected als ausgewähltes Feld vordefiniert werden|```<input type="radio" selected />```|<select><option type="radio" >Feld1</option><option type="radio" selected >Feld2</option></select>|
-|value|Value ist der Wert in einem Feld. Durch die Zuweisung eines Wertes wird dieser Wert an das Feld übergeben.|```<input type="text" value="Valuetext" />```|<input type="text" value="Valuetext" />|
-|placeholder|Hiermit lässt sich ein Beispieltext erzeugen|```<input type="text" placeholder="Platzhaltertext" />```|<input type="text" placeholder="Platzhaltertext" />|
-|disabled|Verschiedene Elemente können disabled werden. Ein Button z.B. kann so lange disabled werden, bis alle nötigen Felder ausgefüllt sind.|```<button class="divSettings">TEXT</button>```|<button >Aktiviert</button> <button disabled>Deaktiviert</button>|
-|target|Das target="_blank" Attribut sorgt dafür, dass beim öffnen ein neuer Tab im Browser geöffent wird.|```<a href="https://" target="_blank" rel="noopener noreferrer">Link</a>```|<a href="https://" target="_blank" rel="noopener noreferrer">Link</a>|
-|loop, muted, controls|Videos und Audio Dateien können diese Attribute erhalten|
+| Command               | Beschreibung                                                                                                                          | HTML                                                                              | CSS/Vorschau                                                                                       |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| class                 | Eine Klasse ist eine wiederverwendbare Ansammlung von Styeles. Im stylesheet wird eine class mit einem `.` angesprochen               | `<div class="divSettings">TEXT</div>`                                             | .divSettings{color: red;}                                                                          |
+| id                    | Eine ID ist wie eine Klasse, nur dass sie einmalig vergeben wird. Im stylesheet wird eine id mit einem `#` angesprochen               | `<div class="divSettings">TEXT</div>`                                             | #divSettings{color: red;}                                                                          |
+| style                 | Initialisiert inline Styles                                                                                                           | `<div style="color: red">TEXT</div>`                                              |                                                                                                    |
+| alt                   | Legt den Alternativen Text fest, falls ein Bild nicht angezeigt werden kann oder zum Vorlesen für beeinträchtigte Peronen             | `<img alt="Bildbeschreibung"></img>`                                              |                                                                                                    |
+| src                   | Damit legt man den Pfad die Quelle (source) des Bildes/der Datei fest.                                                                | `<img src="./images/bild1.png">TEXT</img>`                                        |                                                                                                    |
+| type                  | Es gibt verschiedene Typen: text, checkbox, radio, email                                                                              | `<input type="checkbox"></input>`                                                 | <input type="checkbox"></input>                                                                    |
+| checked               | Um einer Checkbox als default zu Aktivieren gibt es das Attribut checked                                                              | `<input type="checkbox" checked" />`                                              | <input type="checkbox" checked></input>                                                            |
+| selected              | Eine option kann mit dem Attribut selected als ausgewähltes Feld vordefiniert werden                                                  | `<input type="radio" selected />`                                                 | <select><option type="radio" >Feld1</option><option type="radio" selected >Feld2</option></select> |
+| value                 | Value ist der Wert in einem Feld. Durch die Zuweisung eines Wertes wird dieser Wert an das Feld übergeben.                            | `<input type="text" value="Valuetext" />`                                         | <input type="text" value="Valuetext" />                                                            |
+| placeholder           | Hiermit lässt sich ein Beispieltext erzeugen                                                                                          | `<input type="text" placeholder="Platzhaltertext" />`                             | <input type="text" placeholder="Platzhaltertext" />                                                |
+| disabled              | Verschiedene Elemente können disabled werden. Ein Button z.B. kann so lange disabled werden, bis alle nötigen Felder ausgefüllt sind. | `<button class="divSettings">TEXT</button>`                                       | <button >Aktiviert</button> <button disabled>Deaktiviert</button>                                  |
+| target                | Das target="\_blank" Attribut sorgt dafür, dass beim öffnen ein neuer Tab im Browser geöffent wird.                                   | `<a href="https://google.com" target="_blank" rel="noopener noreferrer">Link</a>` | <a href="https://" target="_blank" rel="noopener noreferrer">Link</a>                              |
+| loop, muted, controls | Videos und Audio Dateien können diese Attribute erhalten                                                                              |                                                                                   |                                                                                                    |
 
+## Abschluss
 
-Wenn du wissen möchstest wie gut du mit HTML klar kommst ist hier ein kleines HTML Quiz.
-
-[Zum Quiz](https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML)
-
-
-- [ ] Hallo
+Nachdem du mit allen Aufgaben fertig bist kannst du dein Wissen gerne mit einem kleinen HTML Quiz testen.
+[Hier gelangst du zum HTML-Quiz von W3Schools](https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML).

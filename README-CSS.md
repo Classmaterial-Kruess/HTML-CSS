@@ -24,20 +24,24 @@ Neben grundlegenden Darstellungsanweisungen, die Farben, Formen und Typografie d
 
 Die Anwendungsmöglichkeiten von CSS sind sehr groß, natürlich gibt es gerade für Randbereiche andere, bessere Techniken, aber das allgemeine Styling ist mit CSS mehr als nur praktisch.
 
-|Elemente|Styles|Beispiel|
-|---|---|---|
-|Text Styles|Schriftart, Schriftgröße, Farbe, Zeilenabstand und mehr|![styles1](./images/styles1.png)![styles2](./images/styles2.png)|
-|Block/Conatiner Styles|Position, Größe, Hintergrundfarbe, Schatten|![color container](./images/colors1.png)|
-|Bilder|Einfügen und Darstellen von Bildern|![Images](./images/images1.png)|
-|Positionierungen|Übereinander geschichtete Ebenen|![Positionierung](./images/position1.png)|
-|Animationen||
-
+| Elemente               | Styles                                                  | Beispiel                                                         |
+| ---------------------- | ------------------------------------------------------- | ---------------------------------------------------------------- |
+| Text Styles            | Schriftart, Schriftgröße, Farbe, Zeilenabstand und mehr | ![styles1](./images/styles1.png)![styles2](./images/styles2.png) |
+| Block/Conatiner Styles | Position, Größe, Hintergrundfarbe, Schatten             | ![color container](./images/colors1.png)                         |
+| Bilder                 | Einfügen und Darstellen von Bildern                     | ![Images](./images/images1.png)                                  |
+| Positionierungen       | Übereinander geschichtete Ebenen                        | ![Positionierung](./images/position1.png)                        |
+| Animationen            |                                                         |
 
 ## Praktischer Nutzen von CSS
 
-Um dir einen Eindruck zu verschaffen, was genau du mit CSS erreichen kannst, hast du ier ein paar Links.
+Um dir einen Eindruck zu verschaffen, was genau du mit CSS erreichen kannst, hast du hier ein paar Links.
 
-Natürlich muss man abwegen ob man gerade komplexe Animationen mühsam mit CSS oder doch lieber mit Javascript macht. Die hier gezeigten Animationen sind leicht mit CSS umsetzbar.
+Generell gilt der Merksatz: Löse alles mit CSS, was mit CSS lösbar ist!
+Im großen und ganzen sollte man eine CSS-Lösung immer einer JS-Lösung, aus folgenden Gründen vorziehen:
+
+1. Performance/Ladezeiten
+2. Manche Browser blockieren standardmäßig auszuführendes JS, dass Animationen usw abspielen soll
+3. CSS ist mitlerweile mächtig genug um auf JS zu verzichten.
 
 [Hover Effect](https://tympanus.net/Tutorials/OriginalHoverEffects/)
 
@@ -49,7 +53,6 @@ Bei solch komplexen Animationen sollte man CSS mit Javascript verknüpfen.
 
 [Cube](https://webkit.org/blog-files/3d-transforms/morphing-cubes.html)
 
-
 ## Die verwendung von CSS auf HTML Elemente
 
 Es gibt mehrere Wege CSS Anzuwenden. Neben Frameworks wie Bootstrap und Tailwind gibt es auch klassische varianten wie SASS und CSS.
@@ -60,10 +63,9 @@ Doch so unterschiedlich die Wege auch sind, so basieren sie alle auf CSS und wer
 Eine variante CSS Anzuwenden ist dieses direkt im HTML Dokument (im Tag) zu Verwenden.
 Das ganze wird durch den Tag style="" eingeleitet.
 
-```<div style="width: 10rem; height: 5rem; border: 0.5rem solid ">Content</div>```
+`<div style="width: 10rem; height: 5rem; border: 0.5rem solid ">Content</div>`
 
 <div style="width: 10rem; height: 5rem; border: 0.5rem solid ">Content</div>
-
 
 ### Script
 
@@ -76,3 +78,8 @@ Eine andere Variante, die ebenfalls im HTML Dokument angewendet werden kann, ist
 Die beste und wohl verbreiteste Anwendung von CSS ist das externe Stylesheet. Dieses muss in das HTML Dokument eingebunden werden, da es eine eigene Datei mit der Endung .css ist.
 
 ![extern css](./images/externHTML.png)
+
+## Abschluss
+
+Nachdem du mit allen Aufgaben fertig bist kannst du dein Wissen gerne mit einem kleinen CSS Quiz testen.
+[Hier gelangst du zum CSS-Quiz von W3Schools](https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS).

@@ -8,31 +8,36 @@
   - den Tag + Attribut      input[type="Text"]
 */
 
-main{
+/* 
+  Style Des Beispiel divs:
+  div, h2, p {border: solid}
+*/
+
+main {
   width: 80%;
 }
 
-section{
+section {
   background-color: aqua;
-  color:black;
+  color: black;
   padding: 0 2rem;
   border-bottom: 0.2rem solid black;
 }
 
-.sectionContainer{
+.sectionContainer {
   background-color: yellow;
   border: none;
 }
 
-p{
+p {
   font-size: 2rem;
 }
 
-#pID{
+#pID {
   font-size: 1rem;
 }
 
-#pID2{
+#pID2 {
   color: red;
   font-size: 1rem;
 }
