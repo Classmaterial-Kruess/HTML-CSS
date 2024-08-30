@@ -1,0 +1,35 @@
+section {
+  width: 80%;
+  margin: auto;
+}
+
+.contentSection {
+  height: 100svh;
+}
+
+a {
+  color: blue;
+}
+
+a[target="_blank"],
+ol a {
+  color: green;
+}
+
+a[href="tel:+"] {
+  color: red;
+}
+
+.showMore,
+.showMore + div {
+  width: 10rem;
+  border: solid 0.1rem #242628;
+}
+
+.showMore + div {
+  height: 10rem;
+}
+
+.showMore:hover + div {
+  height: 1rem;
+}
