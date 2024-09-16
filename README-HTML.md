@@ -59,7 +59,7 @@ Warum ein Server eine statische IP-Adresse verwenden sollte, ist eigl ganz schne
 
 ![SGML](./images/charTOip.png)
 
-Kurz ist das Domain Name System (DNS) für die Kommunikation zwischen Mensch und Maschine zuständig. So wird unsere Suchanfrage www.google.de via DNS für die Maschine in die (www.google.de)[IP 142.250.186.35](142.250.186.35) übersetzt.
+Kurz ist das Domain Name System (DNS) für die Kommunikation zwischen Mensch und Maschine zuständig. So wird unsere Suchanfrage www.google.de via DNS für die Maschine in die [IP 142.250.186.35](142.250.186.35) übersetzt.
 
 ### TCP
 
