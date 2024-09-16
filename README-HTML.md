@@ -4,6 +4,8 @@
 
 HTML ist eine „Sprache“ für Computer und die Abkürzung des englisches Begriffes „Hypertext Markup Language“. Übersetzt könnte man sagen: „Auszeichnungssprache für Hypertext“. HTML ist die Grundlage für alle Seiten im Internet und besteht seit 1992. Ein Hypertext ist ein Text, der mit anderen Texten verbunden ist.
 
+![SGML](./images/Auszeichnungssprachen.svg)
+
 Mit HTML baut man die Grundstruktur einer Webseite auf, welche dann mit CSS und diversen Scriptsprachen verknüft werden kann.
 
 ## HTML - Geschichte
