@@ -11,7 +11,7 @@ Mit HTML baut man die Grundstruktur einer Webseite auf, welche dann mit CSS und 
 HTML wurde 1990 vom Web-Gründer Tim Berners-Lee als Auszeichnungssprache entwickelt, die auf SGML basiert.
 SGML ist eine Metasprache, die ab 1960 Texte standardisieren und für Computer lesbar machen sollte.
 
-![SGML](./images/Auszeichnungssprachen.svg)
+[TCP/IP and more...](https://www.computerweekly.com/de/definition/TCP-IP-Transmission-Control-Protocol-Internet-Protocol)
 
 Wer mehr Informationen zu diesen Theman sucht, findet diese im [Museum für Webdesign](https://www.webdesignmuseum.org/web-design-history/timeline-1990-1994)
 
