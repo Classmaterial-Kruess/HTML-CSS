@@ -61,6 +61,8 @@ Warum ein Server eine statische IP-Adresse verwenden sollte, ist eigl ganz schne
 
 Kurz ist das Domain Name System (DNS) für die Kommunikation zwischen Mensch und Maschine zuständig. So wird unsere Suchanfrage www.google.de via DNS für die Maschine in die [IP 142.250.186.35](https://142.250.186.35) übersetzt.
 
+DNS.Google: [IP 8.8.8.8](https://8.8.8.8)
+
 ### TCP
 
 TCP steht für Transmission Control Protocol und ist eine Reihe von Kommunikationsprotokollen, die verwendet werden, um Netzwerkgeräte im Internet miteinander zu verbinden. TCP/IP wird auch als Kommunikationsprotokoll in einem privaten Computernetzwerk (einem Intranet oder Extranet) verwendet.
