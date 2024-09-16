@@ -60,11 +60,11 @@ Während statische IP-Adressen bevorzugt von Servern und Anlagen verwendet werde
 
 Warum ein Server eine statische IP-Adresse verwenden sollte, ist eigl ganz schnell erklärt. Jede URL (https://www.google.de) ist eine IP-Adresse aufgelöst durch einen DNS-Service in Wort und Schrift.
 
-[TCP/IP and more...](https://www.computerweekly.com/de/definition/TCP-IP-Transmission-Control-Protocol-Internet-Protocol)
-
 Kurz ist das Domain Name System (DNS) für die Kommunikation zwischen Mensch und Maschine zuständig. So wird unsere Suchanfrage www.google.de via DNS für die Maschine in die [IP 142.250.186.35](https://142.250.186.35) übersetzt.
 
 DNS.Google: [IP 8.8.8.8](https://8.8.8.8)
+
+[TCP/IP and more...](https://www.computerweekly.com/de/definition/TCP-IP-Transmission-Control-Protocol-Internet-Protocol)
 
 ### TCP
 
