@@ -11,7 +11,7 @@ Mit HTML baut man die Grundstruktur einer Webseite auf, welche dann mit CSS und 
 HTML wurde 1990 vom Web-Gründer Tim Berners-Lee als Auszeichnungssprache entwickelt, die auf SGML basiert.
 SGML ist eine Metasprache, die ab 1960 Texte standardisieren und für Computer lesbar machen sollte.
 
-[TCP/IP and more...](https://www.computerweekly.com/de/definition/TCP-IP-Transmission-Control-Protocol-Internet-Protocol)
+
 
 Wer mehr Informationen zu diesen Theman sucht, findet diese im [Museum für Webdesign](https://www.webdesignmuseum.org/web-design-history/timeline-1990-1994)
 
@@ -21,6 +21,7 @@ Das Internet ist ein gigantisches Netzwerk aus Servern und Routern (Hardware), g
 Doch die beste Hardware ist ohne eine vernünftige Software nur technischer Schrott.
 
 [Was ist das Internet?](https://de.wikipedia.org/wiki/Internet)
+
 [Wie funktioniert das World Wide Web?](https://de.wikipedia.org/wiki/World_Wide_Web)
 
 ### Welche Aufgaben und Vorzüge hat ein Netzwerk?
@@ -57,7 +58,7 @@ Während statische IP-Adressen bevorzugt von Servern und Anlagen verwendet werde
 
 Warum ein Server eine statische IP-Adresse verwenden sollte, ist eigl ganz schnell erklärt. Jede URL (https://www.google.de) ist eine IP-Adresse aufgelöst durch einen DNS-Service in Wort und Schrift.
 
-![SGML](./images/charTOip.png)
+[TCP/IP and more...](https://www.computerweekly.com/de/definition/TCP-IP-Transmission-Control-Protocol-Internet-Protocol)
 
 Kurz ist das Domain Name System (DNS) für die Kommunikation zwischen Mensch und Maschine zuständig. So wird unsere Suchanfrage www.google.de via DNS für die Maschine in die [IP 142.250.186.35](https://142.250.186.35) übersetzt.
 
